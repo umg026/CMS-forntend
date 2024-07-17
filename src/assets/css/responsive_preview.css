@@ -1,0 +1,508 @@
+/* -------------------------------------------Media-Query----------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    text-transform: capitalize;
+    font-family: poppins;
+}
+
+/* ----------------------------------------------------320------------------------------------------------- */
+@media (max-width:320px){
+
+    .first-sec .man .img-content1 {
+        padding: 0 10px;
+    }
+    .second-sec .girl .img-content2{
+        padding: 0 10px;
+    }
+    .for-js {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+        border-radius: 4px;
+    }
+    .jm {
+        font-size: 12px;
+    }
+    .first{
+        gap: 10px !important;
+    }
+    .for-h4 {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .for-jq {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+        border-radius: 4px;
+    }
+
+
+
+
+
+    /* --------- */
+    .img-manxgirl {
+        height: 100% ;
+        width: 100%;
+        object-fit: cover;
+    }
+    .img-manxlaptop {
+        width: 100%;
+       
+    }
+    /* -----most-read---- */
+    .most-read {
+        padding: 10px 10px;
+    }
+    .read-main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .read-main .right-text {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* -------feat-post-------- */
+
+    .featured-post-sec h2 {
+        text-align: center;
+    }
+    .date{
+        justify-content: space-between !important;
+    }
+
+    .for-h5{
+        font-size: 18px;
+    }
+    .for-h4 {
+        line-height: 1.3;
+        font-size: 18px;
+    }
+    .all-post-sec h2 {
+        text-align: center;
+    }
+    /* --------------Footer-------------  */
+
+    .f-icons{
+        justify-content: center !important;
+    }
+    .cag{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cag ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .blg{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .blg ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .cnt{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cnt ul li a{
+        justify-content: center;
+        font-size: 15px !important;
+    }
+
+
+
+
+    /* ---------------------------------------------innerpage-------------------------------------- */
+
+
+
+    .head-bg{
+        padding: 30px 0;
+    }
+    .bg-head h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .bg-subhead i{
+        font-size: 14px;
+        padding: 0 6px;
+    }
+    .bg-subhead p{
+        font-size: 14px;
+    }
+    .plan-par h4 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .plan-par p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+  
+    .right-sticky{
+        position: static;
+    }
+    .ad{
+        position: static;
+    }
+   
+    
+
+}
+
+/* -------------------------375-------------------------------- */
+
+@media (max-width:375px){
+
+    .first-sec .man .img-content1 {
+        padding: 0 10px;
+    }
+    .second-sec .girl .img-content2{
+        padding: 0 10px;
+    }
+    .for-js {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+        border-radius: 4px;
+    }
+    .jm {
+        font-size: 12px;
+    }
+    .first{
+        gap: 10px !important;
+    }
+    .for-h4 {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .for-jq {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+        border-radius: 4px;
+    }
+    .ad{
+        position: static;
+    }
+
+
+
+
+
+    /* --------- */
+    .img-manxgirl {
+        height: 100% ;
+        width: 100%;
+        object-fit: cover;
+    }
+    .img-manxlaptop {
+        width: 100%;
+       
+    }
+    /* -----most-read---- */
+    .most-read {
+        padding: 10px 10px;
+    }
+    .read-main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .read-main .right-text {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* -------feat-post-------- */
+
+    .featured-post-sec h2 {
+        text-align: center;
+    }
+    .date{
+        justify-content: space-between !important;
+    }
+
+    .for-h5{
+        font-size: 18px;
+    }
+    .for-h4 {
+        line-height: 1.3;
+        font-size: 18px !important;
+    }
+    .all-post-sec h2 {
+        text-align: center;
+    }
+    /* --------------Footer-------------  */
+
+    .lgo{
+        text-align: center;
+    }
+    .f-icons{
+        justify-content: center !important;
+    }
+    .f-icons{
+        justify-content: center !important;
+    }
+    .f-icons i{
+        font-size: 20px;
+    }
+    .cag{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cag ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .blg{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .blg ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .cnt{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cnt ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+
+
+    /* --------------------------------------------innerpage---------------------------------------- */
+
+    .bg-head h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .bg-subhead i{
+        font-size: 14px;
+        padding: 0 6px;
+    }
+    .bg-subhead p{
+        font-size: 14px;
+    }
+
+    .right-sticky{
+        position: static;
+    }
+    .ad{
+        position: static;
+    }
+}
+
+
+
+/* ---------------------------520------------------------------ */
+
+@media (max-width:520px){
+
+    .first-sec .man .img-content1 {
+        padding: 0 10px;
+    }
+    .second-sec .girl .img-content2{
+        padding: 0 10px;
+    }
+    .for-js {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+        border-radius: 4px;
+    }
+    .jm {
+        font-size: 12px;
+    }
+    .first{
+        gap: 10px !important;
+    }
+    .for-h4 {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .for-jq {
+        font-size: 12px !important;
+        padding: 3px 10px !important;
+        border-radius: 4px;
+    }
+     /* --------------Footer-------------  */
+
+     .lgo{
+        text-align: center;
+    }
+    .f-icons{
+        justify-content: center !important;
+    }
+    .f-icons1{
+        justify-content: center !important;
+    }
+    .f-icons i{
+        font-size: 20px;
+    }
+    .cag{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cag ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .blg{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .blg ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .cnt{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cnt ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+
+
+    /* -------------------------------------innerpage-------------------------------------- */
+
+    .right-sticky{
+        position: static;
+    }
+    .ad{
+        position: static;
+    }
+
+
+}
+
+
+/* ---------------------------575------------------------------ */
+
+@media (max-width:576px){
+    /* --------------Footer-------------  */
+
+    .f-icons{
+        justify-content: center !important;
+    }
+    .f-icons1{
+        justify-content: center !important;
+    }
+    .cag{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cag ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .blg{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .blg ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+    .cnt{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cnt ul li a{
+        justify-content: center;
+        font-size: 15px;
+    }
+
+     /* --------------------------------------------innerpage---------------------------------------- */
+
+     .bg-head h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .bg-subhead i{
+        font-size: 14px;
+        padding: 0 6px;
+    }
+    .bg-subhead p{
+        font-size: 14px;
+    }
+
+  
+    .right-sticky{
+        position: static;
+    }
+    .ad{
+        position: static;
+    }
+}
+
+
+/* ---------------------------768------------------------------ */
+
+@media (max-width:767px){
+    /* --------------Footer-------------  */
+
+
+    .f-icons{
+        justify-content: center !important;
+    }
+    .f-icons1{
+        justify-content: center !important;
+    }
+    .cag{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cag ul li a{
+        justify-content: center;
+       
+    }
+    .blg{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .blg ul li a{
+        justify-content: center;
+      
+    }
+    .cnt{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cnt ul li a{
+        justify-content: center;
+    }
+
+
+    /* ------------------------------------innerpage---------------------------------- */
+
+  
+    .right-sticky{
+        position: static;
+    }
+    .ad{
+        position: static;
+    }
+
+}
+
+
+/* ---------------------------992------------------------------ */
+
+@media (max-width:992px){
+   
+    .right-sticky{
+        position: static;
+    }
+    .ad{
+        position: static;
+    }
+}
+
+
+
+

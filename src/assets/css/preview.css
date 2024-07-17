@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    text-transform: capitalize;
+    font-family: poppins;
+}
+
+
+.round-img {
+    border-radius: 15px;
+}
+
+.hr_line {
+    color: #a6a29b;
+}
+
+.square-img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.for-h3 {
+    font-size: 19px;
+}
+
+/* -------------------------------section--------------------------------- */
+
+.head-bg {
+    background-image: url("../../assets/images/head-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.bg-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-head h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.bg-subhead {
+    padding-top: 12px;
+}
+
+.bg-subhead i {
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.bg-subhead p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* --------------------------------ad-sec----------------------------- */
+
+.ad {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------left-related-post------------------- */
+
+
+.relate-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px 20px 0 10px;
+}
+
+.relate-content .view {
+    display: flex;
+    gap: 20px;
+}
+
+.relate-content .view a {
+    display: flex;
+    align-items: baseline;
+    color: black;
+    font-size: 12px;
+    gap: 5px;
+
+}
+
+.like a {
+    color: red;
+    font-size: 16px;
+}
+
+
+/* .plan-par {
+    padding-top: 20px;
+} */
+
+.plan-par h4 {
+    font-weight: 700;
+}
+
+.plan-par p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/* -------------------------------leave-comment------------------------------- */
+
+/* .border-comment-sec {
+    border: 2px solid #dfe1e5;
+    border-radius: 6px;
+    background-color: #e2e2e2;
+    padding: 15px 24px;
+}
+
+.border-comment-sec h5 {
+    font-weight: 700;
+}
+
+.submit-bt input {
+    padding: 10px 30px;
+}
+
+.border-comment-sec .form-control {
+    border: 2px solid #bfbfbf;
+} */
+
+
+
+
+
+
+
+
+
+/* ----------------right-latest-post------------------- */
+
+
+
+
+
+.right-sticky {
+    position: sticky;
+    top: 80px;
+}
+
+.border-most-read {
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 6px;
+}
+
+.most-read {
+    padding: 10px 8px;
+}
+
+.most-read h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.read-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.widget-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.read-main .right-text {
+    margin-left: 16px;
+}
+
+.right-text h4 {
+    font-size: 13px;
+    color: #000;
+    font-weight: 700;
+}
+
+.read-main:hover h4 {
+    color: #0078FF !important;
+    transition: 0.5s;
+}
+
+
+
+/* ------------social-icon----------------- */
+
+.border-social-icons {
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.social-icons {
+    padding: 15px 24px;
+}
+
+.f-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.f-icons i {
+    color: white;
+    font-size: 20px;
+}
+
+.f-icons .fb i {
+    width: 35px;
+    height: 35px;
+    background-color: #395498;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons .fb i:hover {
+    background-color: transparent;
+    color: #395498;
+    border: 2px solid #395498;
+    transition: 0.5s;
+}
+
+.f-icons .tw i {
+    width: 35px;
+    height: 35px;
+    background-color: #1C9BE9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons .tw i:hover {
+    background-color: transparent;
+    color: #1C9BE9;
+    border: 2px solid #1C9BE9;
+    transition: 0.5s;
+}
+
+.f-icons .ld i {
+    width: 35px;
+    height: 35px;
+    background-color: #007AB5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons .ld i:hover {
+    background-color: transparent;
+    color: #007AB5;
+    border: 2px solid #007AB5;
+    transition: 0.5s;
+}
+
+.f-icons .ig i {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, #833ab4, #fd1d1d);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons .ig i:hover {
+    background: transparent;
+    color: #fd1d1d;
+    border: 2px solid #833ab4;
+    transition: 0.5s;
+}
+
+/* --------------------------------------post-cards---------------------------------- */
+
+.gray-sec {
+    background-color: #f2f2f2;
+}
+
+.gray-h2 h2 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.for-js {
+    background-color: #ff8700 !important;
+}
+
+.mini {
+    font-size: 12px !important;
+    padding: 3px 10px !important;
+    border-radius: 4px;
+}
+
+.jm i {
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.jm p {
+    font-size: 12px;
+}
+
+.card {
+    box-shadow: 0px 2px 6px 0px #a3a3a3;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.for-wb {
+    background-color: #4BB92F !important;
+}
+
+.for-jq {
+    background-color: #b860ff !important;
+}
+
+.for-css {
+    background-color: #0078FF !important;
+}
+
+
+/* -------------------------------------footer------------------------------------ */
+
+.f-icons1 i {
+    color: white;
+    font-size: 24px;
+}
+
+.f-icons1 .fb i {
+    width: 35px;
+    height: 35px;
+    background-color: #395498;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons1 .tw i {
+    width: 35px;
+    height: 35px;
+    background-color: #1C9BE9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons1 .ld i {
+    width: 35px;
+    height: 35px;
+    background-color: #007AB5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icons1 .ig i {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, #833ab4, #fd1d1d);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cag ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.blg ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.cnt ul li a {
+    color: white;
+    font-size: 18px;
+}

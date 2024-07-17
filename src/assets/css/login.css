@@ -1,0 +1,89 @@
+.login-body {
+    background-color: #dadada;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-box-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-box-container .card-body {
+    padding: 30px;
+}
+
+.authent-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-floating input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #686868;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.form-floating label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #808080;
+    pointer-events: none;
+    transition: top 0.3s, font-size 0.3s;
+}
+
+.form-floating input:focus+label,
+.form-floating input:not(:placeholder-shown)+label {
+    top: -5px;
+    font-size: 14px;
+    color: #9c6efc;
+}
+
+.form-floating input:focus,
+.form-floating input:not(:placeholder-shown) {
+    border-color: #9c6efc;
+}
+
+.dx-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.signin-btn {
+    background-color: #9c6efc;
+    border: 1px solid #9c6efc;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signin-btn:hover {
+    background-color: #efe8ff;
+    color: #9c6efc;
+    border: 1px solid #9c6efc;
+}
+
+.form-floating .form-control:focus {
+    box-shadow: none !important;
+}
