@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.skeleton {
+    background-color: #e2e5e7;
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0)
+    );
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    background-position: left -40px top 0;
+    animation: shine 2s ease infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: right -40px top 0;
+    }
+}
+
+
+/* ---------------------------------------pagination-sec------------------------------------ */
+
+.pagination-skeleton-main{
+    width: 50%;
+    margin: auto;
+}
+
+.pagination-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination-content .drop-d{
+    width: 30%;
+    height: 30px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.pagination-content .drop-d img{
+    padding: 8px;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.pagination .page-box{
+    width: 30px;
+    height: 30px;
+    background-color: #dfdfdf;
+    border: 1px solid #efefef;
+}
+
+.for-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

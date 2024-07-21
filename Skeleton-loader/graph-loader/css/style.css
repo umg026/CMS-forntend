@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.skeleton {
+    background-color: #e2e5e7;
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0)
+    );
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    background-position: left -40px top 0;
+    animation: shine 2s ease infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: right -40px top 0;
+    }
+}
+
+/* ----------------------------graph-sec---------------------------------- */
+
+.flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Style the flowchart blocks */
+.block {
+    height: 120px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #efefef;
+    position: relative;
+    z-index: 1;
+}
+.block-left {
+    top: -20px;
+    left: -175px;
+}
+.block-right {
+    right: -175px;
+    top: -260px;
+}
+
+/* Style the connectors (arrows) */
+.connector {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.connector::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 1px;
+    height: 50px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.connector-row {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.connector-row::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 350px;
+    height: 1px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.connector-cl {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.connector-cl::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -165px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.connector-cr {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.connector-cr::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: -165px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+/* ----------------left-block--------------- */
+
+.con-c {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.con-c::before {
+    content: "";
+    position: absolute;
+    top: 108px;
+    right: -60px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.con-row {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.con-row::before {
+    content: "";
+    position: absolute;
+    top: 118px;
+    left: 75px;
+    width: 310px;
+    height: 1px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.con-row-left {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.con-row-left::before {
+    content: "";
+    position: absolute;
+    top: 118px;
+    left: -80px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.con-row-right {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.con-row-right::before {
+    content: "";
+    position: absolute;
+    top: 118px;
+    left: 230px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.for-flex{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 39px;
+    right: 180px;
+}
+.block-left-child{
+    height: 120px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #efefef;
+    z-index: 1;
+}
+.block-right-child{
+    height: 120px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #efefef;
+    z-index: 1;
+}
+
+
+
+/* ----------------right-block--------------- */
+
+.br-con-c {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.br-con-c::before {
+    content: "";
+    position: absolute;
+    top: 108px;
+    left: 120px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.br-con-row {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.br-con-row::before {
+    content: "";
+    position: absolute;
+    top: 118px;
+    left: 145px;
+    width: 310px;
+    height: 1px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.br-con-row-left {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.br-con-row-left::before {
+    content: "";
+    position: absolute;
+    top: 118px;
+    left: 300px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.br-con-row-right {
+    position: relative;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.br-con-row-right::before {
+    content: "";
+    position: absolute;
+    top: 118px;
+    right: 28px;
+    width: 1px;
+    height: 30px;
+    background-color: #dfdfdf;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.br-for-flex{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: -202px;
+    right: -260px;
+}
+.br-block-left-child{
+    height: 120px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #efefef;
+    z-index: 1;
+}
+.br-block-right-child{
+    height: 120px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #efefef;
+    z-index: 1;
+}
+
+
+/* ===================================media-query========================================== */
+
+@media (min-width: 575px) and (max-width: 767px){
+
+    .connector-row::before{
+        width: 300px;
+    }
+
+    .connector-cl::before{
+        left: -140px;
+    }
+    .connector-cr::before{
+        right: -140px;
+    }
+
+    .block-left {
+        left: -150px;
+    }
+    .block-right {
+        right: -150px;
+    }
+
+    .con-c::before{
+        right: -45px;
+    }
+    .br-con-c::before {
+        left: 65px;
+    }
+
+    .con-row::before {
+        width: 250px;
+        left: 45px;
+    }
+    .con-row-left::before {
+        left: -80px;
+    }
+    .con-row-right::before {
+        left: 170px;
+    }
+
+    .for-flex {
+        right: 170px;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .br-con-row::before {
+        left: 95px;
+        width: 250px;
+    }
+    .br-con-row-right::before {
+        right: 50px;
+    }
+    .br-con-row-left::before {
+        left: 220px;
+    }
+
+    .br-for-flex{
+        left: 170px;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+
+
+}
+
+
